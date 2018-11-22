@@ -30,6 +30,8 @@ After you have accepted the classroom invitation and a private repository has be
 
 1. The places where you should write or change some code are conveniently marked with `todo` tags, there are also short descriptions in those places.
 
+1. You will notice that in many functions there are lines like: `(void)other;    //remove this one!`. You can safely remove those after you fixed a function. Those weird casts to void silence a compiler warning about an unused parameter.
+
 1. If you have questions, need help, etc:
     
     * (optional) create a new branch.
