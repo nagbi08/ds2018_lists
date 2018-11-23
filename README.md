@@ -7,18 +7,22 @@ In this assignment you will program a doubly-linked list (with sentinel node) da
 
 ## Instructions
 
-After you have accepted the classroom invitation and a private repository has been created for you, do the following:
+To start this assignment do the following:
 
-1. Create a new CLion project by checking out the assignment from your freshly created classroom repository.
+1. Clone the repository to your own GitHub account (or download it).
 
-1. After creating the project, in CLion in the terminal window execute the following two git commands:
+1. Create a new CLion project by checking out the repository from GitHub.
+
+1. After creating the project, go to the project directory in terminal and execute the following two git commands:
 
     ~~~bash
     git submodule init
     git submodule update
     ~~~
     
-    This will pull googletest repository as a submodule and add it to your project. 
+    This will pull googletest repository as a submodule and add it to your project.
+    
+1. Reload the CMake project in CLion (Tools->CMake->Reload...)
 
 1. Try to run the `tests_singly` target - most likely all the tests will pass. This target tests the singly-linked list implementation in [src/include/forward_list.h](src/include/forward_list.h).
 
@@ -31,15 +35,5 @@ After you have accepted the classroom invitation and a private repository has be
 1. The places where you should write or change some code are conveniently marked with `todo` tags, there are also short descriptions in those places.
 
 1. You will notice that in many functions there are lines like: `(void)other;    //remove this one!`. You can safely remove those after you fixed a function. Those weird casts to void silence a compiler warning about an unused parameter.
-
-1. If you have questions, need help, etc:
-    
-    * (optional) create a new branch.
-    
-    * commit and push the changes
-    
-    * create an issue and assign me to it.
-
-1. If you are ready commit your changes and push them to Github, **your commit message must start with a word:** ***GRADE***
 
 That's all!
